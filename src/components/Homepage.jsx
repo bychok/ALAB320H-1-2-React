@@ -1,17 +1,16 @@
 import React from 'react'
-import Header from './Header'
-import Searchbar from './Searchbar'
-import EmployeeList from './EmployeeList'
+import Header from "./Header"
+import Footer from "./Footer"
+import BlogEntries from "./BlogEntries"
 
-function Homepage({title,workers}) {
+
+const Homepage = ({entries}) => {
   return (
     <div className="homepage">
-      Homepage
-    <Header topic={title}/>  
-    <Searchbar />
-    <EmployeeList staff={workers}/>
+        <Header/>
+        <BlogEntries entries={entries}/>
+        <Footer />
     </div>
   )
 }
-
 export default Homepage

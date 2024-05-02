@@ -1,11 +1,9 @@
 import React from 'react';
 
-const Header = () => {
+const Footer = () => {
     return (
-        <header className="blog-header">
-            <h1 className="blog-title">Sartre's List</h1>
-            <h2 className="blog-subtitle">Better-Dressed People</h2>
-            <nav className="blog-nav">
+        <footer className="blog-footer">
+            <nav className="footer-nav">
                 <ul>
                     <li><a href="/womens">Women's</a></li>
                     <li><a href="/mens">Men's</a></li>
@@ -13,10 +11,12 @@ const Header = () => {
                     <li><a href="/thecatwalk">The Catwalk</a></li>
                     <li><a href="/adwatch">AdWatch</a></li>
                     <li><a href="/about">About</a></li>
+                    <li><a href="/tips">Tips</a></li>
                 </ul>
             </nav>
-        </header>
+            <h2 className='copyright'>©️ 2013 Valet Industries, Inc.</h2>
+        </footer>
     );
 };
 
-export default Header;
+export default Footer;
