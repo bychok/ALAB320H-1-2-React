@@ -58,7 +58,7 @@ Once the application is running, you can view it in your browser at `http://loca
 
 ## Contributing
 
-Contributions to this project are welcome. Please ensure to update tests as appropriate.
+This project was largely based on Liz's work. She's amazing. Contributions to this project are welcome.
 
 ## License
 
