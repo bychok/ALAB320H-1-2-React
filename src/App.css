@@ -49,8 +49,6 @@
 
 }
 
-
-
 .blog-title{
   color: red;
   font-size: 3.5em;
@@ -103,7 +101,7 @@
   font-size: 2em;
   font-weight: 350;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: .5em;
 }
 
 .entryBody {

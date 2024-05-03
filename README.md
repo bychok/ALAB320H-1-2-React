@@ -1,4 +1,4 @@
-![A vibrant Brooklyn street scene](./src/images/brooklynstrreets.webp)
+![A vibrant Brooklyn street scene](/public/images/brooklynstrreets.webp)
 
 # Brooklyn Blog Platform
 
